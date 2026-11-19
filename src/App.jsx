@@ -14,7 +14,7 @@ function App() {
   const [showNav, setShowNav] = useState(false)
 
   return (
-    <div className="App">
+    <div className="App who">
       <Header showNav={showNav} closeNav={()=>{setShowNav(false)}} openNav={()=>{setShowNav(true)}}/>
       <Hero/>
       <Section title="Why Choose Us" subtitle="Choosing a cleaner comes down to three things: fast service, convenient pickup and drop-off, and fair pricing. That's exactly what we provide.">
