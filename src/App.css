@@ -63,7 +63,7 @@ div.App{
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  max-width: 1050px;
+  max-width: 1250px;
   margin: 0 auto;
 }
 
@@ -90,9 +90,9 @@ section.hero div:first-child{
   margin-top: 4rem;
 }
 
-@media screen and (min-width: 1250px){
+@media screen and (min-width: 1450px){
   div.App.who{
-    max-width: 1650px;
+    max-width: 1550px;
   }
 }
 
